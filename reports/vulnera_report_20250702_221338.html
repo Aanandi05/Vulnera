@@ -1,0 +1,48 @@
+<html><body><h2>Vulnera Scan Report</h2><pre>{
+    "url": "https://example.com",
+    "open_ports": [
+        21,
+        80,
+        110,
+        443
+    ],
+    "http_headers": {
+        "present": {},
+        "missing": [
+            "Content-Security-Policy",
+            "Strict-Transport-Security",
+            "X-Content-Type-Options",
+            "X-Frame-Options",
+            "X-XSS-Protection",
+            "Referrer-Policy",
+            "Permissions-Policy"
+        ]
+    },
+    "http_methods": [
+        "GET",
+        "HEAD"
+    ],
+    "ssl_info": {
+        "issuer": {
+            "countryName": "US",
+            "organizationName": "DigiCert Inc",
+            "commonName": "DigiCert Global G3 TLS ECC SHA384 2020 CA1"
+        },
+        "subject": {
+            "countryName": "US",
+            "stateOrProvinceName": "California",
+            "localityName": "Los Angeles",
+            "organizationName": "Internet Corporation for Assigned Names and Numbers",
+            "commonName": "*.example.com"
+        },
+        "valid_from": "Jan 15 00:00:00 2025 GMT",
+        "valid_until": "Jan 15 23:59:59 2026 GMT",
+        "days_until_expiry": 197
+    },
+    "exposed_directories": [],
+    "ai_risk_prediction": {
+        "risk_level": "UNKNOWN",
+        "confidence": 0.0,
+        "features_used": {}
+    }
+}</pre></body></html>
