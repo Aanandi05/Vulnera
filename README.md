@@ -31,8 +31,8 @@ It’s designed to help security researchers and developers **identify, analyze,
 
 Here are some sample outputs from **Vulnera**:
 
-![Output Screenshot 1](imagee.png)
-![Output Screenshot 2](imageee.png)
+![Output Screenshot 1](imagee.jpg)
+![Output Screenshot 2](imageee.jpg)
 
 ---
 
